@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Darkorbit2.0</title>
+    <link rel="stylesheet" href="dark.css">
+   
+</head>
+<body>
+    <div id="container"></div>  
+    <h1>Bem vindo ao Darkorbit</h1>
+   <div class="entrar"> 
+       <div class="ac.box.login"></div>
+        <p>login</p><input type="text" name="" size="30" placeholder="digite seu login">
+       <div class="ac.box.senha"></div>
+       <p>senha</p><input type="text" name="" size="30" placeholder="digite sua senha">
+
+<div id="jogador01"></div>
+       <a href="home.html" class="jogador01">Entrar</a>
+      
+   </div>
+   
+
+    
+</body>
+</html>
+
+
+/*
+css
+*/
+@charset "UTF-8";
+
+#container{
+    width: 100vw;
+    height: 25vh;
+background-color: blueviolet;
+background: url(dark.jpg);
+background-size: cover;
+}
+
+input{
+    background: linear-gradient(bottom, rgb(0, 255, 255), black);
+    color: rgb(5, 58, 233);
+    margin: 10px;
+    border-radius: 10px 10px 10px;
+    padding: auto;
+    width: auto;
+    margin-top: auto;
+    text-align: center;
+}
+.ac.box.login{
+     border: 5px solid #07ff83; 
+        height: 7px; 
+        width: 323px; 
+
+}
+.ac.box.senha{
+    border: 3px solid red;
+    height: 7px; 
+    width: 323px;
+}
+    
+h1{
+    text-align: center;
+}
+div{
+    text-align: left;
+    text-align: justify;
+}
+#jogador01{
+    background-color: rgb(218, 218, 245);
+    width: 200px;
+    height: 60px;
+    border: 5px solid red; 
+    margin: 5px;
+    border-radius: 10px;
+    text-shadow: 10px 10px 10px black;  
+    text-align: left;
+    
+}
